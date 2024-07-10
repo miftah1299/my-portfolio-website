@@ -65,12 +65,18 @@
     text-align: center;
     margin-top: 32px;
     margin-bottom: 45px;
+    cursor: pointer;
 
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    border: none;
 }
 
+#hero .btn:hover {
+    background: rgba(13, 19, 33, 0.664);
+    transition: 0.3s;
+}
 
 
 /*---------WHY WEB DEV SECTION---------*/
@@ -159,7 +165,7 @@ padding: 12px 20px 12px 20px;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
-
+cursor: pointer;
 }
 
 

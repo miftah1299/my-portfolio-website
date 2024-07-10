@@ -215,7 +215,7 @@ border-radius: 16px;
 
 /*---------TARGET SECTION---------*/
 .target {
-    margin: 0 150px 0 150px;
+    margin: 0 150px 111px 150px;
 }
 .target-languages {
     display: flex;
@@ -274,4 +274,81 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
+}
+
+
+
+/*---------SUPPORT SECTION---------*/
+.support {
+    margin: 0px 150px 180px 150px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.submit sugg {
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+.support-title {
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support-desc {
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.suggest {
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+/* text-align: center; */
+
+    width: 548px;
+height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+
+}
+.btn-support {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+border: none;
+width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
 }

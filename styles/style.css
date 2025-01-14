@@ -26,7 +26,6 @@
 
 #hero .hero-content {
     width: 1440px;
-    ;
 }
 
 .profile-pic {
@@ -221,15 +220,12 @@
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-
-
 }
 
 iframe {
     width: 1076px;
     height: 550px;
     border-radius: 16px;
-
 }
 
 
@@ -394,7 +390,6 @@ iframe {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
-
 }
 
 .btn-support {
@@ -435,7 +430,7 @@ footer {
     padding: 32px 150px 32px 150px;
 }
 
-.footter-text {
+.footer-text {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
